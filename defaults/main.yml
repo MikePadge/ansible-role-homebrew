@@ -1,0 +1,97 @@
+---
+# configure_sudoers: yes
+homebrew_repo: https://github.com/Homebrew/brew
+
+homebrew_prefix: /usr/local
+homebrew_install_path: "{{ homebrew_prefix }}/Homebrew"
+homebrew_brew_bin_path: /usr/local/bin
+
+homebrew_installed_packages:
+  - ansible
+  - git
+  - openssl
+  - hub
+  - python
+  - sqlite
+  - watchman
+  - ssh-copy-id
+  - dockutil
+  - nmap
+  - tree
+  - tmux
+  - irrsi
+  - ssh-copy-id
+  - pv
+
+homebrew_upgrade_all_packages: no
+
+homebrew_taps:
+  - homebrew/core
+  - caskroom/cask
+  - caskroom/versions
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - google-chrome-beta
+  - firefox
+#  - iterm2-beta
+  - torbrowser
+  - obs
+  - vagrant
+  - filezilla
+  - virtualbox
+  - sublime-text
+  - amazon-music
+
+homebrew_use_brewfile: true
+homebrew_brewfile_dir: '~'
+
+dockitems_to_remove:
+  - Launchpad
+  - Mail
+#  - Safari
+  - Contacts
+  - Reminders
+  - Maps
+  - Photos
+#  - Messages
+  - FaceTime
+  - iTunes
+  - Notes
+#  - iBooks
+  - App Store
+  - System Preferences
+  - Calendar
+
+dockitems_to_persist:
+  - name: Google Chrome
+    path: "/Applications/Google Chrome.app"
+    pos: 1
+  - name: FoxFire
+    path: "/Applications/Firefox.app"
+    pos: 2
+  - name: VirtualBox
+    path: /Applications/VirtualBox.app
+    pos: 3
+  - name: Sublime
+    path: /Applications/Sublime\ Text.app
+    pos: 4
+  - name: Terminal
+    path: /Applications/Utilities/Terminal.app
+    pos: 5
+  - name: Filezilla
+    path: /Applications/FileZilla.app
+    pos: 6
+  - name: OBS
+    path: /Applications/OBS.app
+    pos: 7
+  - name: Texts
+    path: /Applications/Messages.app
+    pos: 8
+  - name: Safari
+    path: /Applications/Safari.app
+    pos: 9
+  - name: Safari
+    path: /Applications/Amazon\ Music.app
+    pos: 10
+

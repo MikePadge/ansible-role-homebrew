@@ -1,0 +1,18 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: mikepadge
+  description: Homebrew for Mac OS X
+  company: "MarketReactor"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.0
+  platforms:
+    - name: GenericUNIX
+      versions:
+        - all
+        - any
+  galaxy_tags:
+    - development
+    - system
+    - packaging
