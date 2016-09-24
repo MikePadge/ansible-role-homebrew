@@ -1,6 +1,6 @@
 ---
 # Homebrew setup prerequisites.
-- name: Get current account's username.
+- name: Get current accounts username.
   shell: whoami
   register: homebrew_whoami
   changed_when: false
