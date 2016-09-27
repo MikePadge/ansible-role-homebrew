@@ -46,52 +46,52 @@ homebrew_cask_apps:
 homebrew_use_brewfile: true
 homebrew_brewfile_dir: '~'
 
-dockitems_to_remove:
-  - Launchpad
-  - Mail
-#  - Safari
-  - Contacts
-  - Reminders
-  - Maps
-  - Photos
-#  - Messages
-  - FaceTime
-  - iTunes
-  - Notes
-#  - iBooks
-  - App Store
-  - System Preferences
-  - Calendar
-
-dockitems_to_persist:
-  - name: Google Chrome
-    path: "/Applications/Google Chrome.app"
-    pos: 1
-  - name: FoxFire
-    path: "/Applications/Firefox.app"
-    pos: 2
-  - name: VirtualBox
-    path: /Applications/VirtualBox.app
-    pos: 3
-  - name: Sublime
-    path: /Applications/Sublime\ Text.app
-    pos: 4
-  - name: Terminal
-    path: /Applications/Utilities/Terminal.app
-    pos: 5
-  - name: Filezilla
-    path: /Applications/FileZilla.app
-    pos: 6
-  - name: OBS
-    path: /Applications/OBS.app
-    pos: 7
-  - name: Texts
-    path: /Applications/Messages.app
-    pos: 8
-  - name: Safari
-    path: /Applications/Safari.app
-    pos: 9
-  - name: Safari
-    path: /Applications/Amazon\ Music.app
-    pos: 10
-
+#dockitems_to_remove:
+#  - Launchpad
+#  - Mail
+##  - Safari
+#  - Contacts
+#  - Reminders
+#  - Maps
+#  - Photos
+##  - Messages
+#  - FaceTime
+#  - iTunes
+#  - Notes
+##  - iBooks
+#  - App Store
+#  - System Preferences
+#  - Calendar
+#
+#dockitems_to_persist:
+#  - name: Google Chrome
+#    path: "/Applications/Google Chrome.app"
+#    pos: 1
+#  - name: FoxFire
+#    path: "/Applications/Firefox.app"
+#    pos: 2
+#  - name: VirtualBox
+#    path: /Applications/VirtualBox.app
+#    pos: 3
+#  - name: Sublime
+#    path: /Applications/Sublime\ Text.app
+#    pos: 4
+#  - name: Terminal
+#    path: /Applications/Utilities/Terminal.app
+#    pos: 5
+#  - name: Filezilla
+#    path: /Applications/FileZilla.app
+#    pos: 6
+#  - name: OBS
+#    path: /Applications/OBS.app
+#    pos: 7
+#  - name: Texts
+#    path: /Applications/Messages.app
+#    pos: 8
+#  - name: Safari
+#    path: /Applications/Safari.app
+#    pos: 9
+#  - name: Safari
+#    path: /Applications/Amazon\ Music.app
+#    pos: 10
+#
